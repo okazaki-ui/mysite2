@@ -33,8 +33,6 @@
         {% else %}
             <li>判定結果あり(入力した画像)</li>
             <!--<img src="/static/img/dest2.jpg"/>-->       
-            <img src="data:image/png;base64,{{result_img}}"/>  
-            {% cloudinary post.image.url width=300 height=150 %}
         {% endif %}
 
 

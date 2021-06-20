@@ -4,4 +4,4 @@ gunicorn
 keras
 tensorflow-cpu
 pillow
-cloudinary
+django-cloudinary-storage
